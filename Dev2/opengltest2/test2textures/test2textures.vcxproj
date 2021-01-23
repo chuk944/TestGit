@@ -88,12 +88,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Dev2\opengltest2\test2textures\res\vendor\Glew_freeglut\freeglut\include;C:\Dev2\opengltest2\test2textures\res\vendor\Glew_freeglut\glew-1.11.0\include;C:\Dev2\opengltest2\test2textures\res\vendor\glfw\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>res\vendor\Glew_freeglut\freeglut\include;res\vendor\Glew_freeglut\glew-1.11.0\include;res\vendor\glfw\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Dev2\opengltest2\test2textures\res\vendor\Glew_freeglut\freeglut\lib;C:\Dev2\opengltest2\test2textures\res\vendor\Glew_freeglut\glew-1.11.0\lib;C:\Dev2\opengltest2\test2textures\res\vendor\glfw\glfw-3.3.2.bin.WIN32\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>res\vendor\Glew_freeglut\freeglut\lib;res\vendor\Glew_freeglut\glew-1.11.0\lib;res\vendor\glfw\glfw-3.3.2.bin.WIN32\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>freeglut.lib;glew32.lib;glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -105,14 +105,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Dev2\opengltest2\test2textures\res\vendor\Glew_freeglut\freeglut\include;C:\Dev2\opengltest2\test2textures\res\vendor\Glew_freeglut\glew-1.11.0\include;C:\Dev2\opengltest2\test2textures\res\vendor\glfw\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>res\vendor\Glew_freeglut\freeglut\include;res\vendor\Glew_freeglut\glew-1.11.0\include;res\vendor\glfw\glfw-3.3.2.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Dev2\opengltest2\test2textures\res\vendor\Glew_freeglut\freeglut\lib;C:\Dev2\opengltest2\test2textures\res\vendor\Glew_freeglut\glew-1.11.0\lib;C:\Dev2\opengltest2\test2textures\res\vendor\glfw\glfw-3.3.2.bin.WIN32\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>res\vendor\Glew_freeglut\freeglut\lib;res\vendor\Glew_freeglut\glew-1.11.0\lib;res\vendor\glfw\glfw-3.3.2.bin.WIN32\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>freeglut.lib;glew32.lib;glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
